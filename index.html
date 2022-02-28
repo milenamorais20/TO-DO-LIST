@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link href="./images/check.png" rel="icon" type="image/png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+
+    <div id="d1">
+        <div id="container">
+            <h1>Lista de Tarefas</h1>
+            <input  id="task" type="text" placeholder="Adicione uma nova tarefa" >
+            <button id="enter" onClick="addTask()" class="btnAdd">Adicionar</button><!--Quando clicar no botão, vai chamar a função addtask -->
+            <button onclick="delAll()" class="btnClear">Limpar</button>
+        </div>
+            
+    
+            <div >
+                <ul id="myList">
+                </ul>
+            </div>
+
+	</div>
+
+<script src="list.js"></script>
+</body>
+</html>
